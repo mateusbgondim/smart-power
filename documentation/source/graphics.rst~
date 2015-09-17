@@ -16,7 +16,7 @@ Classes
    
    DashedLine<DashedLine>
    Edge<Edge>
-   Text<class-text>
+   Text<Text>
    Node<Node>
    SceneWidget<SceneWidget>
    ViewWidget<ViewWidget>
