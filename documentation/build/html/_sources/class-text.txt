@@ -31,7 +31,7 @@ itemChange(change, value)
 **change**-
 **value**-	
 
-Descriçao...
+
 Função virtual reimplementada para emitir sinal de mudança (ver
             Pyside, QGraphicsTextItem)
 
@@ -40,10 +40,8 @@ focusOutEvent(event)
 **Parâmetro: **
 **event**-
 
-Descriçao...
-``Função virtual reimplementada para emitir sinal de perda de foco
-            (ver Pyside, QGraphicsTextItem)`` ...............
-
+Função virtual reimplementada para emitir sinal de perda de foco
+            (ver Pyside, QGraphicsTextItem)
 
 
 

@@ -63,14 +63,14 @@ Metodo de desenho do objeto edge implementado pela classe Edge.A classe executa 
 mousePressEvent(mouse_event)
 +++++++++++++++++++++++++++++++++++
 
-**Parâmetro: mouse_event** -QtGui.QMouseEvent
+**Parâmetro: mouse_event** -
 
 Metodo do evento de pressionar o mouse (mousePressEvent) implementado pela classe Edge
 contestMenuEvent(event)
 ++++++++++++++++++++++++
 Callback chamada..
 
-**Parâmetro: - event** -QtCore.QPointF
+**Parâmetro: - event**
 
 
  

@@ -63,10 +63,10 @@
 <li><a class="reference internal" href="#get-fraction-pos">get_fraction(pos)</a></li>
 <li><a class="reference internal" href="#update-position">update_position()</a></li>
 <li><a class="reference internal" href="#set-color-color">set_color(color)</a></li>
-<li><a class="reference internal" href="#boundingrect">boundingRect()</a></li>
+<li><a href="#id1"><span class="problematic" id="id2">`boundingRect()`_</span></a></li>
 <li><a class="reference internal" href="#paint-painter-option-widget">paint(painter, option, widget)</a></li>
 <li><a class="reference internal" href="#mousepressevent-mouse-event">mousePressEvent(mouse_event)</a></li>
-<li><a class="reference internal" href="#contestmenuevent-event">contestMenuEvent(event)</a></li>
+<li><a href="#id3"><span class="problematic" id="id4">`contestMenuEvent(event)`_</span></a></li>
 </ul>
 </div>
 <div class="section" id="init-w1-w2-edge-menu">
@@ -78,36 +78,33 @@
 </div>
 <div class="section" id="get-fraction-pos">
 <h2>get_fraction(pos)<a class="headerlink" href="#get-fraction-pos" title="Link permanente para este título">¶</a></h2>
-<p><strong>Parâmetro: pos</strong> -</p>
-<p>Descriçao...</p>
+<p><strong>Parâmetro: pos</strong> -    PySide.QtCore.qreal</p>
+<p>Esta função obtém uma fração da linha e é utilizada durante o modelo que denomino &#8220;Sticky to Line&#8221; de um nó de carga. Pode ser usado para outros fins em futuras expansões.</p>
 </div>
 <div class="section" id="update-position">
 <h2>update_position()<a class="headerlink" href="#update-position" title="Link permanente para este título">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">Retorna</span> <span class="pre">a</span> <span class="pre">nova</span> <span class="pre">posição</span> <span class="pre">do</span> <span class="pre">objeto</span></code> ...............</p>
+<p>Método de atualização da posição do objeto edge implementado pela classe Edge. Sempre que um dos objetos Nodes w1 ou w2 modifica sua posição este método é chamado para que o objeto edge possa acompanhar o movimento dos Objetos Node.</p>
 </div>
 <div class="section" id="set-color-color">
 <h2>set_color(color)<a class="headerlink" href="#set-color-color" title="Link permanente para este título">¶</a></h2>
 <p><strong>Parâmetro: color</strong> - QtGui.QColor</p>
-<p>Descriçao....</p>
-</div>
-<div class="section" id="boundingrect">
-<h2>boundingRect()<a class="headerlink" href="#boundingrect" title="Link permanente para este título">¶</a></h2>
-<p>Descriçao...</p>
+<p>Metodo que seta a cor do objeto Edge como a definida pelo parametro color.</p>
 </div>
 <div class="section" id="paint-painter-option-widget">
 <h2>paint(painter, option, widget)<a class="headerlink" href="#paint-painter-option-widget" title="Link permanente para este título">¶</a></h2>
 <p><strong>Parâmetros:</strong></p>
-<p><strong>painter</strong> -</p>
+<p><strong>painter</strong> -PySide.QtGui.QPen</p>
 <p><strong>option</strong> -</p>
 <p><strong>widget</strong> -</p>
-<p>Descriçao....</p>
+<p>Metodo de desenho do objeto edge implementado pela classe Edge.A classe executa esta função constantemente</p>
 </div>
 <div class="section" id="mousepressevent-mouse-event">
 <h2>mousePressEvent(mouse_event)<a class="headerlink" href="#mousepressevent-mouse-event" title="Link permanente para este título">¶</a></h2>
 <p><strong>Parâmetro: mouse_event</strong> -</p>
-</div>
-<div class="section" id="contestmenuevent-event">
-<h2>contestMenuEvent(event)<a class="headerlink" href="#contestmenuevent-event" title="Link permanente para este título">¶</a></h2>
+<p>Metodo do evento de pressionar o mouse (mousePressEvent) implementado pela classe Edge
+contestMenuEvent(event)
+++++++++++++++++++++++++
+Callback chamada..</p>
 <p><strong>Parâmetro: - event</strong></p>
 </div>
 </div>
@@ -126,10 +123,8 @@
 <li><a class="reference internal" href="#get-fraction-pos">get_fraction(pos)</a></li>
 <li><a class="reference internal" href="#update-position">update_position()</a></li>
 <li><a class="reference internal" href="#set-color-color">set_color(color)</a></li>
-<li><a class="reference internal" href="#boundingrect">boundingRect()</a></li>
 <li><a class="reference internal" href="#paint-painter-option-widget">paint(painter, option, widget)</a></li>
 <li><a class="reference internal" href="#mousepressevent-mouse-event">mousePressEvent(mouse_event)</a></li>
-<li><a class="reference internal" href="#contestmenuevent-event">contestMenuEvent(event)</a></li>
 </ul>
 </li>
 </ul>

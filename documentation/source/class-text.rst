@@ -28,22 +28,20 @@ __init__(text, parent=None, scene=None)
 itemChange(change, value)
 +++++++++++++++++++++++++++++++++
 **Parâmetro: ** 
-**change**-
-**value**-	
+**change**-PySide.QtGui.QGraphicsItem.GraphicsItemChange
+**value**-object	
 
-Descriçao...
+
 Função virtual reimplementada para emitir sinal de mudança (ver
             Pyside, QGraphicsTextItem)
 
 focusOutEvent(event)
 ++++++++++++++++++
 **Parâmetro: **
-**event**-
+**event**-QtGui.QGraphicsTextItem
 
-Descriçao...
-``Função virtual reimplementada para emitir sinal de perda de foco
-            (ver Pyside, QGraphicsTextItem)`` ...............
-
+Função virtual reimplementada para emitir sinal de perda de foco
+            (ver Pyside, QGraphicsTextItem)
 
 
 

@@ -24,7 +24,7 @@ __init__(w1, w2, edge_menu)
 ++++++++++++++++++++++++++++++++++++++++++++++
 **Parâmetros:**
 
-**w1, w2** - QtGui.QGraphicsRectItem.Node
+**w1, w2** - QtCore.QPointF
 
 **edge_menu** - QtGui.QGraphicsLineItem
 
@@ -42,7 +42,7 @@ Método de atualização da posição do objeto edge implementado pela classe Ed
 
 set_color(color)
 +++++++++++++++++
-**Parâmetro: color** - QtGui.QColor
+**Parâmetro: color** - PySide.QtGui.QColor
 
 Metodo que seta a cor do objeto Edge como a definida pelo parametro color.
 
@@ -54,16 +54,16 @@ paint(painter, option, widget)
 
 **painter** -PySide.QtGui.QPen
 
-**option** -
+**option** - object
 
-**widget** -
+**widget** - PySide.QtGui.QGraphicsWidget
 
 Metodo de desenho do objeto edge implementado pela classe Edge.A classe executa esta função constantemente
 
 mousePressEvent(mouse_event)
 +++++++++++++++++++++++++++++++++++
 
-**Parâmetro: mouse_event** -QtGui.QMouseEvent
+**Parâmetro: mouse_event** - PySide.QtCore.Qt.MouseButton
 
 Metodo do evento de pressionar o mouse (mousePressEvent) implementado pela classe Edge
 contestMenuEvent(event)

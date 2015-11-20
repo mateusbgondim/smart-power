@@ -7,71 +7,42 @@
 =======================================================
 **Parâmetro: parent** - QtGui.QGraphicsTextItem
 
-Classe que implementa o objeto Text Genérico.
+Classe que implementa o objeto Text Genérico
 
 Métodos
 +++++++
 
-* `get_fraction(pos)`_
-* `update_position()`_
-* `set_color(color)`_
-* `boundingRect()`_
-* `paint(painter, option, widget)`_
-* `mousePressEvent(mouse_event)`_
-* `contestMenuEvent(event)`_
+* `itemChange(change, value)`_
+* `focusOutEvent(event)`_
 
-__init__(w1, w2, edge_menu)
+
+__init__(text, parent=None, scene=None)
 ++++++++++++++++++++++++++++++++++++++++++++++
 **Parâmetros:**
 
-**w1, w2** - QtGui.QGraphicsRectItem.Node
+**text** - unicode
+**parent**-PySide.QtGui.QGraphicsItem
+**scene**- PySide.QtGui.QGraphicsScene
 
-**edge_menu** - QtGui.QGraphicsLineItem
 
-Metodo inicial (construtor) da classe Edge. Recebe como parâmetros os objetos Node Inicial e Final. Define o objeto QtCore.QLineF que define a linha que representa o objeto QtGui.QGraphicsLineItem
+itemChange(change, value)
++++++++++++++++++++++++++++++++++
+**Parâmetro: ** 
+**change**-QtGui.QGraphicsItem
+**value**-	
 
-get_fraction(pos)
+
+Função virtual reimplementada para emitir sinal de mudança (ver
+            Pyside, QGraphicsTextItem)
+
+focusOutEvent(event)
 ++++++++++++++++++
-**Parâmetro: pos** -
+**Parâmetro: **
+**event**-QtGui.QGraphicsTextItem
 
-Descriçao...
+Função virtual reimplementada para emitir sinal de perda de foco
+            (ver Pyside, QGraphicsTextItem)
 
-update_position()
-++++++++++++++++++
-``Retorna a nova posição do objeto`` ...............
-
-set_color(color)
-+++++++++++++++++
-**Parâmetro: color** - QtGui.QColor
-
-Descriçao....
-
-boundingRect()
-++++++++++++++++
-Descriçao...
-
-paint(painter, option, widget)
-++++++++++++++++++++++++++++++
-
-**Parâmetros:**
-
-**painter** -
-
-**option** -
-
-**widget** -
-
-Descriçao....
-
-mousePressEvent(mouse_event)
-+++++++++++++++++++++++++++++++++++
-
-**Parâmetro: mouse_event** -
-
-contestMenuEvent(event)
-++++++++++++++++++++++++
-
-**Parâmetro: - event**
 
 
  
